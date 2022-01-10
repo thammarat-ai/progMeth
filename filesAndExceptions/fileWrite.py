@@ -1,29 +1,28 @@
 # This program writes all student name data to a file.
 def main():
   # Open a file named students.txt
-  outfile = open('students.txt')
+  outfile = open('students.txt','w')
   
   # Write the names of all students to file
-  outfile.write('ARNAN, SANTITHON')
-  outfile.write('JAIBANUEAM, CHONTHICHA')
-  outfile.write('JAMNAE, AR-PHARAT')
-  outfile.write('MOONDENG, WITCHAKORN')
-  outfile.write('NADEE, NATTHANICHA')
-  outfile.write('NAMDOKMAI, MATAWUT')
-  outfile.write('PARAMEE, JIRADET')
-  outfile.write('Phollua, Peerawat')
-  outfile.write('SOOKAD, THUKDANUY')
-  outfile.write('SUKKEAW, PAWORNRAT')
-  outfile.write('SUNUNTA, NEERANUCH')
-  outfile.write('TIENKAEW, SUNISA')
-  outfile.write('WIANGLO, DANAI')
-  outfile.write('WONGRIAB, NOPPADOL')
+  outfile.write('ARNAN, SANTITHON\n')
+  outfile.write('JAIBANUEAM, CHONTHICHA\n')
+  outfile.write('JAMNAE, AR-PHARAT\n')
+  outfile.write('MOONDENG, WITCHAKORN\n')
+  outfile.write('NADEE, NATTHANICHA\n')
+  outfile.write('NAMDOKMAI, MATAWUT\n')
+  outfile.write('PARAMEE, JIRADET\n')
+  outfile.write('Phollua, Peerawat\n')
+  outfile.write('SOOKAD, THUKDANUY\n')
+  outfile.write('SUKKEAW, PAWORNRAT\n')
+  outfile.write('SUNUNTA, NEERANUCH\n')
+  outfile.write('TIENKAEW, SUNISA\n')
+  outfile.write('WIANGLO, DANAI\n')
+  outfile.write('WONGRIAB, NOPPADOL\n')
   outfile.write('YAMMEE, CHAWAN')
   
   # Close the file
   outfile.close()
   
 # Call the main function
-if __name__ == '__main__":
-   main()
-  
+if __name__ == '__main__':
+      main()

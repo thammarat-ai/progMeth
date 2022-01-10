@@ -1,7 +1,7 @@
 # This program reads and displays th contents of the students.txt file.
 def main():
   # Open a file name students.txt
-  infile = open('students.py')
+  infile = open('students.txt')
   
   # Read th file's data
   fileData = infile.read()
@@ -13,5 +13,5 @@ def main():
   print(fileData)
   
 # Call the main function
-if __main__ == '__main__':
+if __name__ == '__main__':
   main()

@@ -1,4 +1,4 @@
-# progMeth
+# Programming Methodology  
 225120
 ระเบียบวิธีการเขียนโปรแกรม
 

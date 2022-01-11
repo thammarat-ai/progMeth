@@ -9,9 +9,12 @@ def main():
     num3 = int(input('Enter a final number: '))
 
     # Write the numbers to the file.
-    outfile.write(str(num1) + '\n')
-    outfile.write(str(num2) + '\n')
-    outfile.write(str(num3) + '\n')
+    outfile.write(f'{num1}\n')
+    outfile.write(f'{num2}\n')
+    outfile.write(f'{num3}\n')
+    # outfile.write(str(num1) + '\n')
+    # outfile.write(str(num2) + '\n')
+    # outfile.write(str(num3) + '\n')
 
     # Close the file.
     outfile.close()

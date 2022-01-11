@@ -9,7 +9,7 @@ def main():
 
     # Get the amount of sales for each day.
     # and write the amounts to the file.
-    for count in range(1, numDays + 1):
+    for count in range(1, numDays + 1): #range(0, numDays)
         # Get the sales for a day.
         sales = float(input(f"Enter the sales for day #{count}: "))
 
